@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: tarantool/tarantool
+  tag: "3"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 3301
+  targetPort: 3301
+  nodePort: 30001
+

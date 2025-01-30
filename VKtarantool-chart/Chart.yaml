@@ -1,0 +1,6 @@
+apiVersion: v2
+name: VKtarantool
+description: A Helm chart for Tarantool deployment
+version: 0.1.0
+appVersion: "3.0"
+
