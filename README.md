@@ -14,5 +14,7 @@ X7predNA3bc8/XnhafS3A8hp/nnsb418cr4N9foBk88=
 
 
 Запуск Helm
+```
 cd VKtarantool-chart
 helm install VKtarantool-release ./
+```
